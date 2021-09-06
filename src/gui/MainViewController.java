@@ -75,7 +75,7 @@ public class MainViewController {
 	@SuppressWarnings("exports")
 	public void OnActionBtRemove(ActionEvent event) {
 		System.out.println("Removing...");
-		if(!Alerts.showAlert("Warning", null, "Are you you want to delete this entity?\nThis action can\'t be undone!",
+		if(!Alerts.showAlert("Warning", null, "Are you sure you want to delete this entity?\nThis action can\'t be undone!",
 				Alert.AlertType.CONFIRMATION))
 			return;
 		
